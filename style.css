@@ -12,10 +12,35 @@ h1 {
   max-width: 600px;
   font-size: 90px;
   color: wheat;
-  border-bottom: greenyellow 6px solid;
 }
 h2{
     margin-top: 80px;
     text-align: center;
     color: wheat;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+.button-container .rps-btn{
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.button-container .rps-btn:hover {
+  background-color: grey;
+}
+.result-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  font-size: 2rem;
 }
